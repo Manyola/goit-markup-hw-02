@@ -1,9 +1,105 @@
-/*Основний колір тексту  */
+/*Основний колір тексту #2E2F42 */
+/* Вторинний колір тексту #434455; */
 /*Колір тексту заголовків  */
-/* Тло колір   */
+/* Колір тла #E5E5E5 */
+/* Вторинний колір тла #F4F4FD */
+/* Колір акценту #4D5AE5 */
 :root{
---primary-text-color:
---title-text-color:
---background-color:
+--primary-text-color:#2E2F42;
+--second-text-color: #434455;
+--background-color: #E5E5E5;
+--accet-color:#4D5AE5;
 }
-/*  */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+/*  HEADER */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+    
+}
+.header-list {
+}
+.list {
+    list-style: none;
+}
+.header-item {
+}
+.header-link {
+}
+.link {
+    text-decoration: none;
+}
+.header-cont {
+}
+
+
+/*  HERO  */
+
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/* SECTIONS */
+.section-title {}
+.section-subtitle {}
+.section-text {}
+
+/* FEATURES */
+
+.feauters {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+
+/* SERVISES */
+
+.servises {
+}
+.servises-list {
+}
+.servises-item {
+}
+.servises-img {
+}
+
+/* TEAM */
+
+.team {
+
+}
+.team-list {
+
+}
+.team-item {
+
+}
+.team-img {
+
+}
+
+/* FOOTER */
+
+.footer {}
+.footer-link {}
+.footer-text {}
+
+/* ------------------Portfolio--------------------- */
+
+.portfolio {}
+.portfolio-btn {}
+.portfolio-item {}
+.portfolio-link {}
+.portfolio-img {}
