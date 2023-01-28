@@ -38,7 +38,7 @@ body{
     color: var(--primary-text-color);
 }
 .logo-accent {
-       color: var(--accet-color);
+    color: var(--accet-color);
 }
 .header-list {
 }
@@ -67,7 +67,7 @@ body{
 .header-link:focus,
 .contacts-link:hover,
 .contacts-link:focus{
-color: var(--accet-color);
+    color: var(--accet-color);
 }
 
 /*  HERO  */
