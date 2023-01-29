@@ -9,6 +9,7 @@
 --second-text-color: #434455;
 --background-color: #FFFFFF;
 --second-bg-color: #F4F4FD;
+--footer-bg-color: #2E2F42;
 --accet-color:#4D5AE5;
 --white-color:#FFFFFF;
 }
@@ -23,10 +24,11 @@ body{
 /*  HEADER */
 
 .header {
+    
 }
 .header-nav {
 }
-.header-logo {
+.logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -73,6 +75,7 @@ body{
 /*  HERO  */
 
 .hero {
+    background-color: var(--footer-bg-color);
 }
 .hero-title {
     font-size: 56px;
@@ -136,6 +139,7 @@ body{
 /* TEAM */
 
 .team {
+    background-color: var(--second-bg-color);
 
 }
 .team-list {
@@ -151,8 +155,9 @@ body{
 
 /* FOOTER */
 
-.footer {}
-.footer-link {}
+.footer {
+    background-color: var(--footer-bg-color);
+}
 .footer-text {
     letter-spacing: 0.02em;
     color: var(--second-bg-color);
