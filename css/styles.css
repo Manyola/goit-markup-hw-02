@@ -21,7 +21,7 @@ body{
     line-height: 1.5;
 }
 
-/*  HEADER */
+/* ------------------------------------- HEADER */
 
 .header {
     
@@ -38,6 +38,10 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--accet-color);
 }
 .logo-accent {
     color: var(--accet-color);
@@ -72,7 +76,7 @@ body{
     color: var(--accet-color);
 }
 
-/*  HERO  */
+/* ---------------------------------------- HERO  */
 
 .hero {
     background-color: var(--footer-bg-color);
@@ -93,8 +97,8 @@ body{
     color: var(--white-color);
     cursor: pointer;
 }
-/* SECTIONS */
-.section-title {
+/*---------------------------------------- SECTIONS */
+.title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -102,31 +106,39 @@ body{
     text-transform: capitalize;
     color: var(--primary-text-color);
 }
-.section-subtitle {
+.subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.section-text {
+.text {
       letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
 
-/* FEATURES */
+/* ---------------------------------------FEATURES */
 
 .feauters {
 }
+.features-title {}
+
+.features-subtitle {}
+
+.features-text {}
+
 .features-list {
 }
 .features-item {
 }
 
-/* SERVISES */
+/* ----------------------------------------SERVISES */
 
 .servises {
 }
+.servises-title {}
+
 .servises-list {
 }
 .servises-item {
@@ -136,7 +148,7 @@ body{
     height: 300px;
 }
 
-/* TEAM */
+/* ----------------------------------------TEAM */
 
 .team {
     background-color: var(--second-bg-color);
@@ -152,21 +164,31 @@ body{
     width: 264px;
     height: 260px;
 }
+.team-title {}
 
-/* FOOTER */
+.team-subtitle {}
+
+.team-text {}
+
+.text {}
+/*--------------------------------------- FOOTER */
 
 .footer {
     background-color: var(--footer-bg-color);
+}
+.footer-logo {
+    color:var(--second-bg-color)
 }
 .footer-text {
     letter-spacing: 0.02em;
     color: var(--second-bg-color);
 }
 
-/* ------------------Portfolio--------------------- */
+/* ----------------------------------------Portfolio*/
 
 .portfolio {}
 .portfolio-btn {
+    font-family: inherit;
     background-color: #F4F4FD;
     font-weight: 500;
     display: flex;
@@ -182,8 +204,14 @@ body{
     color: #E7E9FC;
 }
 .portfolio-item {}
+
 .portfolio-link {}
+
 .portfolio-img {
     width: 360px;
     height: 300px;
 }
+.portfolio-subtitle {}
+
+.portfolio-text {}
+
