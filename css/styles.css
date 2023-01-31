@@ -74,7 +74,7 @@ body{
 .btn:hover,
 .btn:focus {
     background-color: var(--hover-color);
-    color: #E7E9FC;
+    color: var(--white-color);
 }
 
 /* ------------------------------------- HEADER */
